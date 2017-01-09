@@ -1,0 +1,22 @@
+# Can you?
+
+Create a new route to handle GET requests to '/about'
+
+Create a new html file called 'bio.html' with the text "Me-yow!"
+
+Add a link to "index.html" that will make a GET request to '/about'
+
+When a user visits "/" and clicks on "/about" they should see the contents from 'bio.html'
+
+# Then
+
+Let's talk about "middleware"
+
+Read the following https://expressjs.com/en/guide/using-middleware.html
+
+Answer the following questions: 
+- What do middleware functions have access to?
+- What tasks can middleware perform?
+- What does `next()` do?
+- What is a "mount path"? 
+- What is the only built-in middleware?
