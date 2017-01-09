@@ -26,7 +26,7 @@ Let's talk about "middleware"
 
 Read the following https://expressjs.com/en/guide/using-middleware.html
 
-🤷‍♀️Answer the following questions: 
+️Answer the following questions: 
 - What do middleware functions have access to?
 - What tasks can middleware perform?
 - What does `next()` do?
