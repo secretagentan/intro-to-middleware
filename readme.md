@@ -1,3 +1,15 @@
+# Getting started
+
+If you just forked and cloned a node app, what command should you run from the terminal to ensure you've downloaded all the dependencies?
+
+# Setup
+
+Read through the code in `server.js`
+
+Run the command `npm start` from your terminal.
+What does it do?
+What code in `pacakge.json` do you think it's executing? 
+
 # Can you?
 
 Create a new route to handle GET requests to '/about'
