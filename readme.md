@@ -1,4 +1,4 @@
-# Getting started
+# 🤰Getting started
 
 If you just forked and cloned a node app, what command should you run from the terminal to ensure you've downloaded all the dependencies?
 
@@ -10,7 +10,7 @@ Run the command `npm start` from your terminal.
 What does it do?
 What code in `pacakge.json` do you think it's executing? 
 
-# Can you?
+# 👷‍♀️Can you?
 
 Create a new route to handle GET requests to '/about'
 
@@ -20,7 +20,7 @@ Add a link to "index.html" that will make a GET request to '/about'
 
 When a user visits "/" and clicks on "/about" they should see the contents from 'bio.html'
 
-# Then
+# 🤷‍♀️Then
 
 Let's talk about "middleware"
 
