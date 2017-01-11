@@ -89,7 +89,10 @@ Otherwise, the request will be left hanging.
 - What is a "mount path"? 
 
 ```
-When a middleware function is mounted on a specific path, the function is executed for any type of HTTP request on that specified path. Functions can also handle GET requests to that specified path. 
+When a middleware function is mounted on a specific path,
+the function is executed for any type of HTTP request 
+on that specified path. Functions can also handle GET 
+requests to that specified path. 
 
 For example: 
     app.get('/user/:id', function(req, res, next){
