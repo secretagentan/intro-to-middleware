@@ -45,22 +45,43 @@ Let's talk about "middleware"
 
 Read the following https://expressjs.com/en/guide/using-middleware.html
 
+```
+// Express is a routing & middleware web framework
+// that has minimal functionality of its own. 
+
+// An Express application is essentially a series
+// of middleware function calls.
+
+```
+
 Answer the following questions: 
 - What do middleware functions have access to?
 
 ```
+- the request object (req)
+- the response object (res)
+- the next middleware function in the app's req-res cycle
+    - commonly denoted by variable 'next'
 
 ```
 
 - What tasks can middleware perform?
 
 ```
+- Execute any code 
+- Make changes to the request & the response objects
+- End the request-response cycle
+- Call the next middleware function in the stack 
 
 ```
 
 - What does `next()` do?
 
 ```
+If the current middleware function does not end the 
+request-response cycle, it must call `next()` to pass 
+control over to the next middleware function.
+Otherwise, the request will be left hanging. 
 
 ```
 
@@ -73,6 +94,18 @@ Answer the following questions:
 - What is the only built-in middleware?
 
 ```
+`express.static` : 
+    This function is based on serve-static, and is
+    responsible for serving static assets such as: 
+    HTML files, images, CSS files, and so on. 
+
+The function signature is: 
+    `express.status(root, [options])`
+
+For example: 
+    var express = require('express');
+    var app = express();
+    app.use(express.static(__dirname + '/public'));
 
 ```
 
