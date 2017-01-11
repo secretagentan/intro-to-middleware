@@ -46,6 +46,7 @@ Let's talk about "middleware"
 Read the following https://expressjs.com/en/guide/using-middleware.html
 
 ```
+// NOTE:
 // Express is a routing & middleware web framework
 // that has minimal functionality of its own. 
 
@@ -58,10 +59,10 @@ Answer the following questions:
 - What do middleware functions have access to?
 
 ```
-- the request object (req)
-- the response object (res)
-- the next middleware function in the app's req-res cycle
-    - commonly denoted by variable 'next'
+- The request object (req)
+- The response object (res)
+- The next middleware function in the app's req-res cycle
+    - Commonly denoted by variable 'next'
 
 ```
 
@@ -88,6 +89,14 @@ Otherwise, the request will be left hanging.
 - What is a "mount path"? 
 
 ```
+When a middleware function is mounted on a specific path, the function is executed for any type of HTTP request on that specified path. Functions can also handle GET requests to that specified path. 
+
+For example: 
+    app.get('/user/:id', function(req, res, next){
+    res.send('USER');
+    })
+
+'/user/:id' = mount path 
 
 ```
 
