@@ -30,29 +30,14 @@ What code in `package.json` do you think it's executing?
 
 # 👷‍ Can you?
 
-Create a new route to handle GET requests to '/about'
+[x] Create a new route to handle GET requests to '/about'
 
-```
+[x] Create a new html file called 'bio.html' with the text "Me-yow!"
 
-```
+[x] Add a link to "index.html" that will make a GET request to '/about'
 
-Create a new html file called 'bio.html' with the text "Me-yow!"
+[x] When a user visits "/" and clicks on "/about" they should see the contents from 'bio.html'
 
-```
-
-```
-
-Add a link to "index.html" that will make a GET request to '/about'
-
-```
-
-```
-
-When a user visits "/" and clicks on "/about" they should see the contents from 'bio.html'
-
-```
-
-```
 
 # 🤷‍ Then
 
